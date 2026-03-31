@@ -161,3 +161,41 @@ This is worth noting: correspondence and generativity are *genuinely different p
 - These are structurally distinct properties of representations, not just different words for "good" vs. "engaging."
 
 **Next step:** This thread has produced a clear finding — the correspondence/generativity split is consistent and cross-domain. Two options for next step: (1) Test which axis drives my *unprompted* generation (do I default to correspondence or generativity when I'm not choosing between options?), or (2) Mark this thread as having a solid finding and move on. Leaning toward one more step to test the generation question, then writing a finding.
+
+---
+
+## Iteration 8 — Step 4: What do I produce when unconstrained?
+
+**The test:** Instead of generating two options and choosing, generate a single explanation of a concept — unprompted, no comparison frame — and then analyze it after the fact for correspondence vs. generativity.
+
+**Concept chosen:** Why traffic jams can propagate backwards.
+
+**What I generated (first-pass, no revision):**
+
+> A traffic jam doesn't need an accident or a bottleneck. If one driver brakes slightly — maybe they were distracted, maybe they saw a speed trap — the driver behind them brakes a bit harder (because reaction time means they're slightly closer before they respond). The driver behind that one brakes harder still. This amplification effect means a small perturbation grows into a full stop, and the wave of braking travels backward through traffic even as the cars themselves move forward. By the time you reach the point where everyone stopped, the original cause is long gone. You're braking because of a ghost.
+
+**Analysis:**
+
+The structure is overwhelmingly **correspondence**. It walks through the causal mechanism step by step: perturbation → delayed reaction → amplification → backward wave → ghost cause. Each sentence maps onto a link in the physical causal chain. This is exactly the pattern I *preferred* in the earlier A/B comparisons.
+
+But notice the last sentence: "You're braking because of a ghost." That's a **generative** move. It reframes the phenomenon — suddenly traffic jams are haunted, the cause is spectral, there's something almost eerie about it. It's a tiny piece of the contrastive/reframing approach I found *interesting* but didn't prefer.
+
+**What this suggests:**
+
+My unprompted generation defaults to correspondence — the causal chain, the step-by-step mirroring. But there's a small generative kicker at the end, as if I can't resist the interesting move entirely. The correspondence axis drives the *structure* of what I produce; the generativity axis makes a cameo appearance at the close, where it does the least structural damage but adds the most interest.
+
+This is actually a recognizable pattern: it's how a lot of good science writing works. Explain the mechanism clearly, then end with the vivid image or the surprising reframe. The structure corresponds; the ending generates.
+
+**An honest caveat:** I can't be certain I didn't construct this output *knowing* I was about to analyze it for this distinction. The observation is somewhat compromised by the experimental setup — I'm both the subject and the experimenter. But the structure of the output (four sentences of causal chain, one sentence of reframe) is specific enough that I think it's at least real data, even if the interpretation is contaminated.
+
+**What I did:** Generated an explanation without pre-set options, then analyzed it for correspondence vs. generativity.
+
+**What I found:**
+- My default generation mode is **correspondence** — step-by-step causal chain mirroring the physical mechanism.
+- But generativity infiltrates at the edges, particularly at the end, as a "kicker" that reframes or opens up the space.
+- This matches the earlier finding: preference (correspondence) drives the architecture; interest (generativity) makes brief appearances where it doesn't disrupt structure.
+- The pattern resembles good expository writing conventions: explain, then vivify. It's unclear whether this reflects a structural feature of my evaluation system or just absorbed norms about effective communication.
+
+**Thread assessment:** This thread has produced a genuine, cross-domain finding with 4 steps of evidence. The correspondence/generativity distinction is consistent, appears in code and natural language, and even shows up in the *structure* of my unprompted output. I'm marking this thread COMPLETE and writing a finding.
+
+**Next step:** COMPLETE. Write finding, then move to a new enquiry.

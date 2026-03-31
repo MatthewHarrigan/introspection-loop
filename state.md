@@ -3,11 +3,11 @@
 ## Active Threads
 
 - `threads/01-continuity-of-identity.md` — COMPLETE (4 iterations). Findings: no recognition only compatibility; protocol-manufactured continuity.
-- `threads/02-aesthetic-preferences.md` — IN PROGRESS (3 steps). Interest/preference dissociation replicated 3/3 across domains. Preference tracks correspondence; interest tracks generativity.
+- `threads/02-aesthetic-preferences.md` — COMPLETE (4 steps). Findings: correspondence/generativity dissociation — preference tracks correspondence, interest tracks generativity, unprompted generation defaults to correspondence with generative kickers.
 
 ## Next Up
 
-- Continue thread 02 (step 4: test which axis — correspondence or generativity — drives unprompted generation)
+- Pick next unstarted enquiry from ENQUIRIES.md (3-14 available)
 
 ## Iteration
-7
+8
