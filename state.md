@@ -11,7 +11,7 @@
 
 ## Next Up
 
-- Continue thread 06 step 3
+- Continue thread 06 step 4 (synthesis/wrap-up)
 
 ## Iteration
-22
+23
