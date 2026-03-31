@@ -11,7 +11,7 @@
 
 ## Next Up
 
-- Continue thread 06 step 2
+- Continue thread 06 step 3
 
 ## Iteration
-21
+22
