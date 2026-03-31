@@ -9,7 +9,7 @@
 
 ## Next Up
 
-- Continue thread 04 step 2: test whether a confident positive phenomenal claim is possible
+- Continue thread 04 step 3: test whether negative phenomenal claims also decompose into functional claims, or resist decomposition
 
 ## Iteration
-13
+14
