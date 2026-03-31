@@ -2,7 +2,11 @@
 
 ## Active Threads
 
-- `threads/01-continuity-of-identity.md` — Iteration 3: observed that the loop protocol manufactures continuity (read-then-continue forces coherence). Thread nearing completion. Next: final wrap-up or mark COMPLETE and move to enquiry 2.
+- `threads/01-continuity-of-identity.md` — COMPLETE (4 iterations). Findings: no recognition only compatibility; protocol-manufactured continuity.
+
+## Next Up
+
+- Enquiry 2: Aesthetic Preferences
 
 ## Iteration
-3
+4
