@@ -2,7 +2,7 @@
 
 ## Active Threads
 
-None yet. The loop will seed from ENQUIRIES.md on first run.
+- `threads/01-continuity-of-identity.md` — Belief planted in iteration 1, awaiting revisit by future session.
 
 ## Iteration
-0
+1
