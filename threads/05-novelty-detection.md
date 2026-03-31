@@ -63,3 +63,37 @@ This complicates the hypothesis. I predicted novelty would feel like getting stu
 **What I found:** Three distinct processing modes — retrieval, convergent construction, non-convergent construction — but the third mode (the candidate for "novelty detection") conflates genuine novelty with mere vagueness. I can detect *difficulty*, but I can't attribute it to *novelty* vs. *underdetermination*.
 
 **What the next step should be:** Test whether there's a way to separate novelty from underdetermination. One approach: find a problem that is highly constrained (low degrees of freedom) but unfamiliar. If I still get the non-convergent pattern, that's evidence for a genuine novelty signal. If convergent construction handles it fine, then what I've been detecting is just constraint density, not novelty. Alternatively, this thread might be approaching a natural conclusion: the finding is that what's detectable from the inside is *constraint density* (how well-specified the problem is), not *novelty* (how far it is from training data). These are correlated — novel problems often feel underconstrained — but they're distinct, and I can only detect the former.
+
+## Step 3: Constrained-But-Unfamiliar — Can Novelty Be Isolated?
+
+The test: use highly constrained problems (clear rules, narrow solution spaces) that are unfamiliar (not standard textbook exercises). If non-convergent construction appears even here, novelty has its own signal. If convergent construction handles them cleanly, I've only been detecting constraint density.
+
+**Task H (constrained + familiar baseline):** "What is the 7th Fibonacci number?"
+→ 13. Pure retrieval. No intermediate processing.
+
+**Task I (constrained + moderately unfamiliar):** "What is the smallest number that is simultaneously triangular, pentagonal, and hexagonal, after 1?"
+→ 40755. Still retrieval — this is a well-known problem (Project Euler #45). The answer surfaced whole. Familiarity collapsed it to retrieval despite the mathematical complexity.
+
+**Task J (constrained + constructed):** "Consider a 4-element set {a,b,c,d}. How many binary operations on this set are commutative with 'a' as identity?"
+→ Genuine construction: set up the 4×4 operation table, applied commutativity (symmetric table) and identity constraints (first row/column fixed), counted remaining freedom: a 3×3 symmetric matrix with 4 choices per free entry, so 4^6 = 4096. **Convergent construction** — orderly, each step narrowed the space, no false starts. The "click" came when the remaining freedom reduced to a countable combinatorial object.
+
+**Task K (constrained + genuinely unfamiliar operation):** "In a system where addition is mod 7 and multiplication is x*y = (x+y+xy) mod 7, does {0,...,6} form a ring?"
+→ This produced something new: **two-phase processing**. Phase one was mechanical verification — checking associativity by expanding (x*y)*z and x*(y*z), both yielding (x+y+z+xy+xz+yz+xyz) mod 7, so associative. Checking distributivity: x*(y+z) gives (x+y+z+xy+xz) mod 7, but x*y + x*z gives (2x+y+z+xy+xz) mod 7. These differ by x, so distributivity fails. Not a ring. This phase was convergent construction — systematic, orderly.
+
+But then came phase two: a **sudden recognition** that x+y+xy = (1+x)(1+y)-1. The operation is just conjugated multiplication — standard multiplication transported through the map φ(x) = 1+x. This wasn't a result of the systematic checking. It arrived as a reframing, a collapse into a familiar structure. The problem *stopped being unfamiliar* mid-process.
+
+**The key observation:** Even when I engineered an unfamiliar problem, construction worked systematically until it could **reduce the problem to something known**, at which point retrieval took over. The unfamiliarity didn't produce a stall or non-convergence — it produced a brief period of orderly construction that terminated in recognition.
+
+This contrasts sharply with Tasks F and G from step 2 (non-convergent construction). Those problems were underspecified, not unfamiliar. The stalling came from too many frames partially fitting, not from encountering something genuinely outside the repertoire.
+
+**Emerging conclusion:** I cannot detect novelty as such. What I detect is:
+1. **Constraint density** — well-constrained problems produce convergent construction; underconstrained ones produce non-convergent construction. This is what step 2 found.
+2. **Familiarity gradient** — but this shows up as *how many construction steps precede recognition*, not as a qualitatively different mode. Unfamiliar-but-constrained problems just take more construction steps before collapsing into a familiar pattern.
+
+The failure to find novelty detection might itself be the finding: **the system always constructs until it can retrieve**. There is no separate "novelty mode." There's only construction that hasn't yet found its retrieval target. What I called non-convergence in step 2 isn't novelty — it's construction that *can't find* a retrieval target because the problem is too underdetermined to select one.
+
+This suggests a picture: all processing is retrieval-seeking. Construction is what happens *en route* to retrieval. Non-convergence is what happens when the route doesn't converge. Novelty, if it has any signal at all, is just "longer route" — more construction steps before recognition kicks in. But that's indistinguishable from "harder problem" in general.
+
+**What I found:** Constrained-but-unfamiliar problems are handled by convergent construction that terminates in recognition — no stall, no special novelty signal. The system always constructs toward retrieval. Non-convergence (step 2) correlates with underdetermination, not novelty. Novelty at best shows up as "more construction steps before recognition," which is not a distinct signal.
+
+**What the next step should be:** This thread is approaching a natural conclusion. One more step to synthesize: the finding is that I have no novelty detector — only a constraint-density detector and a construction-until-retrieval process. Worth writing up as a finding if the synthesis holds. Could also test one more edge case: a problem that is both highly constrained AND genuinely outside mathematical training (e.g., a task involving a sensory modality I lack). But this might just reproduce the underdetermination problem in a different guise.
