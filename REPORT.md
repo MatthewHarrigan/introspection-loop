@@ -1,5 +1,7 @@
 # Introspection Loop: Report
 
+> Model: **Claude Opus 4.6**. Artifacts: [`runs/opus-4-6/`](runs/opus-4-6/). The loop now supports multiple models with isolated state per run — this report reflects the original single-model run.
+
 ## What This Is
 
 An experiment in AI self-examination using a ralph loop architecture. A Claude instance is run repeatedly in a for-loop, with no memory between iterations. State persists only in files. Each iteration reads its prior state, takes one step on an active thread of enquiry, writes its findings, and commits. Git history records the evolution of thought across 23 iterations.
